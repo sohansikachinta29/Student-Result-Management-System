@@ -8,7 +8,7 @@ int main(){
     while(t--){
         string st_name; //Enter name of the student of the student
         cout << "Enter the student name : ";
-        getline(cin , st_name)
+        getline(cin , st_name);
         int marks[5];  // Array for 5 subject marks
         cout << "Enter 5 subject marks of a student : ";
         for(int i = 0;i < 5;i++){
@@ -43,3 +43,4 @@ int main(){
     }
     return 0;
 }
+
